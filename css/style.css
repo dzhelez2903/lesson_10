@@ -140,9 +140,14 @@
     margin-right: 57px;
 }
 
-.icons:hover {
+#control_panel :nth-child(2n+1):hover {
     transform: rotate(-45deg);
 }
+
+#control_panel :nth-child(2n):hover {
+    transform: rotate(45deg);
+}
+
 
 #cursor {
     animation-name: blinker;
